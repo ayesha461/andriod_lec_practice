@@ -18,9 +18,16 @@ public class MainActivity extends AppCompatActivity {
 
         textView=findViewById(R.id.textView3);
         button=findViewById(R.id.button3);
+        button=findViewById(R.id.button4);
+        textView=findViewById(R.id.textView4);
+
     }
 
     public void buttonFun(View view) {
         textView.setText("Some one is there");
+    }
+
+    public void onceAgainPractice(View view) {
+        textView.setText("this is new button 4 calling");
     }
 }
