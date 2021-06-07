@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.linear_layout_2);
+        setContentView(R.layout.intent);
 
         textView=findViewById(R.id.textView3);
         button=findViewById(R.id.button3);
@@ -29,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onceAgainPractice(View view) {
         textView.setText("this is new button 4 calling");
+    }
+
+    public void Call(View view){
+        
     }
 }
