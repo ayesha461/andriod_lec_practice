@@ -2,6 +2,8 @@ package com.example.mypractice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Call(View view){
-        
+        Uri uri=Uri.parse("tel:+923052057442");
+        Intent intent=new Intent(Intent.ACTION_DIAL,uri);
+        startActivity(intent);
+    }
+    public void moveToWeb(View view){
+        Uri uri=Uri.parse("https://www.google.com");
+        Intent intent=new Intent(Intent.ACTION_VIEW,uri);
+        startActivity(intent);
     }
 }
