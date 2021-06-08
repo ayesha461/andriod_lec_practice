@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="AndroidLayouts">
+        <shared>
+            <config />
+        </shared>
+    </component>
+    <component name="ChangeListManager">
+        <list
+            name="Default Changelist"
+            comment=""
+            default="true"
+            id="99cc3003-a11a-4894-8d38-0434345331f3">
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/.idea/gradle.xml"
+                beforeDir="false"
+                beforePath="$PROJECT_DIR$/.idea/gradle.xml" />
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seekbar/MainActivity.java"
+                beforeDir="false"
+                beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seekbar/MainActivity.java" />
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml"
+                beforeDir="false"
+                beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        </list>
+        <option
+            name="SHOW_DIALOG"
+            value="false" />
+        <option
+            name="HIGHLIGHT_CONFLICTS"
+            value="true" />
+        <option
+            name="HIGHLIGHT_NON_ACTIVE_CHANGELIST"
+            value="false" />
+        <option
+            name="LAST_RESOLUTION"
+            value="IGNORE" />
+    </component>
+    <component
+        name="ExecutionTargetManager"
+        SELECTED_TARGET="DUJ6R20228014220" />
+    <component name="ExternalProjectsData">
+        <projectState path="$PROJECT_DIR$">
+            <ProjectState />
+        </projectState>
+    </component>
+    <component name="ExternalProjectsManager">
+        <system id="GRADLE">
+            <state>
+                <projects_view />
+            </state>
+        </system>
+    </component>
+    <component name="Git.Settings">
+        <option
+            name="RECENT_GIT_ROOT_PATH"
+            value="$PROJECT_DIR$/.." />
+    </component>
+    <component
+        name="ProjectId"
+        id="1teyvVwvZsxqrUHwVGg4cHEbCK7" />
+    <component
+        name="ProjectLevelVcsManager"
+        settingsEdit
