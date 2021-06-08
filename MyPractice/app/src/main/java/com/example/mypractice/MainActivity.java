@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         button=findViewById(R.id.button4);
         textView=findViewById(R.id.textView4);
 
+
+
     }
 
     public void buttonFun(View view) {
@@ -34,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Call(View view){
-        Uri uri=Uri.parse("tel:+923052057442");
+        /*Uri uri=Uri.parse("tel:+923052057442");
         Intent intent=new Intent(Intent.ACTION_DIAL,uri);
+        startActivity(intent);*/
+        Intent intent=new Intent(this,listView.class);
         startActivity(intent);
     }
     public void moveToWeb(View view){
