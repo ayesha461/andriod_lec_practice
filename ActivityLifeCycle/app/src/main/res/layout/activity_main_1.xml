@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="71dp">
+
+        <EditText
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Counter"
+            android:textColor="#E8E5DC"
+            android:textColorLink="#009688"
+            android:textSize="72sp" />
+
+        <EditText
+            android:id="@+id/counter1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4ECF3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textColor="#009688"
+            android:textColorHighlight="#009688"
+            android:textSize="100sp" />
+
+        <Button
+            android:id="@+id/buttonCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="IncrementNo"
+            android:text="Click"
+            android:textColor="#D3CCD5"
+            android:textSize="50sp"
+            app:backgroundTint="#908E93" />
+
+        <Button
+            android:id="@+id/buttonAct1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity2"
+            android:onClick="moveActivity2"
+            app:backgroundTint="#BDB5B5" />
+
+        <Button
+            android:id="@+id/buttonAct2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity3"
+            android:onClick="moveActivity3"
+            app:backgroundTint="#B6AAAA" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
