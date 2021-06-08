@@ -5,4 +5,5 @@
     <string name="name">Name</string>
     <string name="button">Button</string>
     <string name="add">add</string>
+    <string name="detailtext">DetailText</string>
 </resources>
